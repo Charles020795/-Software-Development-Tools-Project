@@ -1,0 +1,11 @@
+# Streamlit config for Render
+
+[server]
+headless = true
+port = 10000
+address = "0.0.0.0"
+enableCORS = false
+enableXsrfProtection = true
+
+[theme]
+base = "light"
