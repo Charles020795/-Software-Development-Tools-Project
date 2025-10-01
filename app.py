@@ -108,7 +108,6 @@ if show_advanced_analysis:
     st.header("🔍 Advanced Analysis")
     
     col1, col2 = st.columns(2)
-    
     with col1:
         year_price_fig = px.box(
             filtered_df,
